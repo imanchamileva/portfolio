@@ -1,14 +1,15 @@
 import {useState} from 'react'
 import image from "../images/iman3.jpg"
-import Header from './Header.js'
+
 import Section1 from './Section1.js'
 import Section2 from './Section2'
 import Section3 from './Section3.js'
-import style from './sideIcons.module.css'
+import style from './section4.module.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from './Footer'
-import Section4 from './sideIcons'
+import Section4 from './Section4'
+// import Navbar from './Navbar.js'
 
 
 function State() {
@@ -26,7 +27,7 @@ function State() {
     return (
         <>
    {imageVisible && (
-        <div className="imgIman">
+        <div id="imanStart">
             <img onClick={nouvelleImage} data-aos="fade-right" data-aos-duration="1000" className="imgIman22"src={image}  />
          </div>
 
@@ -36,7 +37,7 @@ function State() {
    { visible ? (
     <div>
        
-        <Header />
+        {/* <Navbar /> */}
         
         <Section1 /> 
 

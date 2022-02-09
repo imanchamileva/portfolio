@@ -18,7 +18,7 @@ import { SiAdobeillustrator } from "react-icons/si";
 function Section2() {
     return (
 
-        <div className="container2">
+        <div className="part2">
 
         <h3 id="skills">My Skills</h3>
         <div className="rond">

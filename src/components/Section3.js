@@ -8,13 +8,16 @@ function Section3() {
 
         <div id="portfolio"className="part3">
             <h3 className="titrePart3">Projects</h3>
+
             <div class="divgeneraleprojets">
 
-            <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image2} className="projet44" /></div>
-            <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image1} className="projet44" /></div>
-            <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image3} className="projet44" /></div>
+                <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image2} className="projet44" /></div>
 
+                <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image1} className="projet44" /></div>
 
+                <div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image3} className="projet44" /></div>
+
+                <div id="emptyDiv"> <img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500"  /> </div>
             </div>
         </div>
     )

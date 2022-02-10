@@ -21,11 +21,7 @@ AOS.init()
 
 })
 
-const OptionsCursorTrueWithMargins = {
-    followCursor: true,
-    shiftX: 3,
-    shiftY: 0
- }
+
 
 
 
@@ -40,17 +36,7 @@ const OptionsCursorTrueWithMargins = {
        
         <State />
         
-
-        {/* <Header /> */}
-
-        {/* <Section1 /> */}
-
-        {/* <Section2 />
-
-        <Section3 />
-
-        <Footer /> */}
-
+   
 
 
 

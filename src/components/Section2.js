@@ -10,10 +10,10 @@ import { SiWordpress } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
 import { SiBootstrap } from "react-icons/si";
-
 import { SiAdobexd } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
+
 
 function Section2() {
     return (

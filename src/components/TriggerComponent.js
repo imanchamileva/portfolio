@@ -1,10 +1,26 @@
-import React from 'react'
-import image2 from "../images/projet2.png"
+import './Menuburger.css'
+import { slide as Menu } from "react-burger-menu";
 
-const TriggerComponent = () => {
-   return (
-       <p><div className="projet1"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="200" src={image2} className="projet11"   /></div></p>
-  )
-}
 
-export default TriggerComponent
+
+
+export default props => {
+  return (
+    // Pass on our props
+    <Menu {...props}>
+      <a className="menu-item" href="/">
+        Skills
+      </a>
+
+      <a className="menu-item" href="/about">
+        Projects
+      </a>
+
+      <a className="menu-item" href="/services">
+        Github
+      </a>
+
+
+    </Menu>
+  );
+};

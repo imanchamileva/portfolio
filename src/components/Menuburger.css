@@ -1,15 +1,13 @@
 .burgerNav {
 
     
-    top:0;
+  top:0;
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
-	padding: 15px;
-	padding-right: 1px;
 	width:100%;
 	color:white;
-    /* height:1px; */
+  height:10px;
     
 	
     
@@ -34,18 +32,24 @@
 }
 
 .btn {
-    display: none;
+    
+    /* display: none; */
     position: absolute;
     right: 10px;
     top: 7px;
-    padding: 5px;
-    color: #000;
-    font-size: 18px;
-    border-radius:50%;
+    /* padding: 5px; */
+    color: white;
+    /* font-size: 18px; */
+    border:none;
+    cursor:pointer;
+    background-color:rgb(3, 3, 19);
 }
 
+.btn:hover {
+  color:pink;
+}
 .burgerTypo {
-    font-size:30px;
+    font-size:22px;
 	letter-spacing: 4px;
 	text-decoration: none;
 	/* color:rgb(14, 221, 248); */
@@ -61,6 +65,7 @@
 
 
 @media screen and (max-width: 500px){
+
     .list {
 
         display: flex;
@@ -75,11 +80,7 @@
          padding-left:10px;
          
     }
-    .items:nth-child(1){
-        /* border-top: 1px solid rgba(255, 255, 255, 0.555); */
-        /* margin-top: 100px; */
-   
-    }
+
     .items {
         /* width: 100%; */
         /* border-top: 1px solid rgba(255, 255, 255, 0.555); */
@@ -97,6 +98,15 @@
 
 }
 
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////// */
 
 
 

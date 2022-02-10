@@ -1,15 +1,21 @@
 import  './Menuburger.css'
-import React, {useState, useEffect} from 'react'
+import{useState, useEffect} from 'react'
+import { FiMenu } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 
 
 const Menuburger = () =>{
 
     const [toggleMenu, setToggleMenu] = useState(false)
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
+    const [toggleIcon, setToggleIcon] = useState(false)
   
-  
+
+    
+
     const toggleNav = () => {
       setToggleMenu(!toggleMenu)
+      setToggleIcon(!toggleIcon)
     }
   
     useEffect(() => {
@@ -36,9 +42,11 @@ const Menuburger = () =>{
         </ul>
         )}
 
+{(screenWidth<500) && (
       <button onClick={toggleNav} className="btn">
-=
+        {toggleIcon ? <FiX /> :  <FiMenu /> }
       </button>
+      )}
     </nav>
   )
 }

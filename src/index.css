@@ -164,9 +164,9 @@ h5 {
 			
 	);
 
-	display:flex;
+
 	flex-direction:column;
-	/* align-content:space-between; */
+	
 }
 .part1 {
 	display: flex;
@@ -671,10 +671,12 @@ footer {
 		justify-content: flex-start;
 		align-items: center;
 		/* align-content:center; */
-		height:100vh;
+		height:100%;
 		width: 100%;
 		/* align-content:center; */
 		flex-direction:column;
+		
+		
 	
 	
 		
@@ -871,7 +873,7 @@ footer {
 		display:flex;
 		justify-content:center;
 		font-family: alliance;
-		font-size:25px;
+		font-size:15px;
 		
 		height:80px;
 		align-items:center;
@@ -969,6 +971,7 @@ footer {
 }
 
 
+/* TODO */
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 

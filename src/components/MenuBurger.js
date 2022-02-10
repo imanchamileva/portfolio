@@ -10,9 +10,6 @@ const Menuburger = () =>{
     const [screenWidth, setScreenWidth] = useState(window.innerWidth)
     const [toggleIcon, setToggleIcon] = useState(false)
   
-
-    
-
     const toggleNav = () => {
       setToggleMenu(!toggleMenu)
       setToggleIcon(!toggleIcon)
@@ -32,24 +29,24 @@ const Menuburger = () =>{
   
     }, [])
     
-  return (
-    <nav className="burgerNav">
-        {(toggleMenu || screenWidth>500) && (
-        <ul className="list">
-            <li className="items"><a className="burgerTypo" href="#skills">SKILLS</a></li>
-            <li className="items"><a  className="burgerTypo" href="#portfolio">PORTFOLIO</a></li>
-            <li className="items"><a className="burgerTypo" href="https://github.com/imanchamileva" target="_blank">GITHUB</a></li>
-        </ul>
-        )}
+    return (
+      <nav className="burgerNav">
+          {(toggleMenu || screenWidth>500) && (
+          <ul className="list">
+              <li className="items"><a className="burgerTypo" href="#skills">SKILLS</a></li>
+              <li className="items"><a  className="burgerTypo" href="#projects">PROJECTS</a></li>
+              <li className="items"><a className="burgerTypo" href="https://github.com/imanchamileva" target="_blank">GITHUB</a></li>
+          </ul>
+          )}
 
-{(screenWidth<500) && (
-      <button onClick={toggleNav} className="btn">
-        {toggleIcon ? <FiX /> :  <FiMenu /> }
-      </button>
-      )}
-    </nav>
-  )
-}
+    {(screenWidth<500) && (
+        <button onClick={toggleNav} className="btn">
+          {toggleIcon ? <FiX /> :  <FiMenu /> }
+        </button>
+        )}
+      </nav>
+    )
+  }
 
 
 

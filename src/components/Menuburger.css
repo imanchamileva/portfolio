@@ -1,13 +1,13 @@
 .burgerNav {
 
     
-  top:0;
+    top:0;
 	display: flex;
 	justify-content: flex-end;
 	flex-direction: row;
 	width:100%;
 	color:white;
-  height:10px;
+    height:10px;
     
 	
     
@@ -45,9 +45,7 @@
     background-color:rgb(3, 3, 19);
 }
 
-.btn:hover {
-  color:pink;
-}
+
 .burgerTypo {
     font-size:22px;
 	letter-spacing: 4px;
@@ -61,6 +59,7 @@
 	margin-right:15px;
 	margin-top: 20px;
 	color:white;
+    cursor:pointer;
 }
 
 

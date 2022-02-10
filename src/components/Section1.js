@@ -9,6 +9,7 @@ function Section1() {
 
                 <Menuburger/>
                   <div className="part1">
+                  
                     <div className="imgIman">
                         <img  className="imgIman22" src={image}  alt="iman_avatar"/>
                     </div>

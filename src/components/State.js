@@ -13,13 +13,14 @@ import Menuburger from './Menuburger'
 
 
 
+
 function State() {
     
     const [visible, setVisible] = useState(false)
     const [imageVisible, setImageVisible] = useState(true)
  
 
-    const nouvelleImage = () => {
+    const newImage = () => {
         setVisible(true)
         setImageVisible(false)
     }
@@ -29,7 +30,7 @@ function State() {
         <>
    {imageVisible && (
         <div id="imanStart">
-            <img onClick={nouvelleImage} data-aos="fade-right" data-aos-duration="1000" className="imgIman22"src={image}  />
+            <img onClick={newImage} data-aos="fade-right" data-aos-duration="1000" className="imgIman22"src={image}  />
          </div>
 
    )}

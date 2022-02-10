@@ -600,13 +600,15 @@ footer {
 			
 				
 		);
+
+	
 	}
 	.part1 {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
 		/* align-content:center; */
-		height:100%;
+		height:100vh;
 		width: 100%;
 		/* align-content:center; */
 		flex-direction:column;
@@ -903,6 +905,9 @@ footer {
 		height:250px;
 		width:100%;
 	}
+
+
+
 }
 
 

@@ -5,7 +5,7 @@ import Menuburger from "./Menuburger"
 function Section1() {
     return (
 
-        <div class="container">
+        <div id="home" class="container">
 
                 <Menuburger/>
                   <div className="part1">

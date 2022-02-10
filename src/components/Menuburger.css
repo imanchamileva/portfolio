@@ -3,16 +3,19 @@
     
     top:0;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
 	flex-direction: row;
 	width:100%;
 	color:white;
     height:10px;
-    
-	
-    
+ 
 }
 
+.logo {
+    width:100px;
+    height:100px;
+    margin-left:-10px;
+}
 .list {
     list-style-type: none;
     height: 100%;

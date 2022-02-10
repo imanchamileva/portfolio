@@ -2,7 +2,7 @@ import  './Menuburger.css'
 import{useState, useEffect} from 'react'
 import { FiMenu } from "react-icons/fi";
 import { FiX } from "react-icons/fi";
-
+import logo from '../images/logo.png'
 
 const Menuburger = () =>{
 
@@ -31,6 +31,7 @@ const Menuburger = () =>{
     
     return (
       <nav className="burgerNav">
+       <div className="logo"> <img className="logo" href="#home" src={logo} /></div>
           {(toggleMenu || screenWidth>500) && (
           <ul className="list">
               <li className="items"><a className="burgerTypo" href="#skills">SKILLS</a></li>

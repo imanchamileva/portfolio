@@ -32,7 +32,7 @@ const Menuburger = () =>{
     return (
       <nav className="burgerNav">
        <div className="logoImg"> <img className="logo" href="#home" src={logo} /></div>
-          {(toggleMenu || screenWidth>500) && (
+          {(toggleMenu || screenWidth>600) && (
           <ul className="list">
               <li className="items"><a className="burgerTypo" href="#skills">SKILLS</a></li>
               <li className="items"><a  className="burgerTypo" href="#projects">PROJECTS</a></li>
@@ -40,7 +40,7 @@ const Menuburger = () =>{
           </ul>
           )}
 
-    {(screenWidth<500) && (
+    {(screenWidth<600) && (
         <button onClick={toggleNav} className="btn">
           {toggleIcon ? <FiX /> :  <FiMenu /> }
         </button>

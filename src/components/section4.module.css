@@ -70,8 +70,63 @@
 
 /* TODO */
 
-Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+	.burgerNav {
+		overflow:hidden;
+	}
+	#iconspart4 {
+
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		align-items:center;
+		align-content:center;
+		height:100px;
+	}
+
+	#linkedinSide {
+
+		width:32px;
+		height:32px;
+		color:rgb(130, 255, 167);
+		margin-left:40px;
+	
+			
+	}
+
+	#part4 {
+	
+
+		font-size:20px;
+		height:100%;
+		color:rgb(255, 255, 255);
+		display: flex;
+		flex-direction: column;
+		position:fixed;
+		padding-bottom:2px;
+		top:380px;
+		z-index: 1;
+		align-content:center;
+		width:40px;
+		align-items:center;
+		margin-top:-50px;
+	  }
+
+	#contactme {
+
+		letter-spacing:  7px;
+		font-family: alliance;
+		writing-mode: vertical-rl;
+		text-orientation: sideways;
+		color:rgb(130, 255, 167);
+		/* margin-top:-165px; */
+		
+
+
+}
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
@@ -81,3 +136,26 @@ Small devices (portrait tablets and large phones, 600px and up)
 {}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1600px) {
+
+	#part4 {
+	
+
+		font-size:20px;
+		height:100%;
+		color:rgb(255, 255, 255);
+		display: flex;
+		flex-direction: column;
+		position:fixed;
+		padding-bottom:2px;
+		top:280px;
+		z-index: 1;
+		align-content:center;
+		width:40px;
+		align-items:center;
+	  }
+
+
+}

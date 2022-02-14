@@ -740,9 +740,10 @@ footer {
 			rgb(8, 3, 37) 100%,
 			rgb(4, 71, 14) 0%
 			
-				
+				 
 		);
 		
+		width:100vw;
 	}
 	
 	.divgeneraleprojets {
@@ -751,6 +752,8 @@ footer {
 		display:flex;
 		justify-content:space-around;
 		flex-direction:column;
+		margin-right:15px;
+		width:100vw;
 	
 		
 		

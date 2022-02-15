@@ -1,5 +1,4 @@
-// import { SiGithub } from "react-icons/si";
-import { SiLinkedin } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si"
 import style from './section4.module.css'
 
 

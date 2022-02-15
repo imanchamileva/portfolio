@@ -2,8 +2,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	/* background-color: rgb(31, 28, 28); */
-	/* background-color: rgb(34, 32, 32); */
 	scroll-behavior: smooth;
 }
 
@@ -445,12 +443,6 @@ footer {
 		display:none;
 	}
 	
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-
-	}
 	
 	@font-face {
 		font-family: alliance;
@@ -723,9 +715,9 @@ footer {
 	.part3 {
 		height:180vh;
 		display:flex;
-		/* align-content:center; */
 		flex-direction:column;
-		align-items:center;
+		justify-content:center;
+		/* align-items:center; */
 	
 		background: rgb(0, 0, 0);
 		background: linear-gradient(
@@ -755,6 +747,7 @@ footer {
 		flex-direction:column;
 		margin-right:15px;
 		width:100vw;
+		align-content:center;
 	
 		
 		

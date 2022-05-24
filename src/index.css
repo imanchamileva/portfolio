@@ -1146,7 +1146,7 @@ footer {
 	
 	
 	.part3 {
-		height:180vh;
+		height:250vh;
 		display:flex;
 		flex-direction:column;
 		align-items:center;
@@ -1172,7 +1172,7 @@ footer {
 	
 	.divgeneraleprojets {
 	
-		height:140vh;
+		height:400vh;
 		display:flex;
 		justify-content:space-around;
 		flex-direction:column;

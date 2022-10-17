@@ -13,7 +13,7 @@
 
 
 .nameTypo {
-	font-size: 50px;
+	font-size: px;
 	font-family: alliance;
 	letter-spacing: 15px;
 	color: rgb(255, 255, 255);
@@ -22,7 +22,7 @@
 }
 
 .frontTypo {
-	font-size: 55px;
+	font-size: px;
 	font-family: alliance;
 	letter-spacing: 15px;
 	background-image: url(https://media.giphy.com/media/BHXw0yautal11VA69R/giphy.gif);
@@ -40,8 +40,8 @@
 	border-radius: 50%;
 	cursor:pointer;
 	box-shadow: inset 0 0 10px rgb(107, 248, 171), 0 0 25px rgb(167, 255, 189);
-	width:350px;
-	height:350px;
+	width:250px;
+	height:250px;
 	
 
 }
@@ -79,7 +79,7 @@
 h5 {
 	color: rgb(255, 255, 255);
 	font-family: alliance;
-	font-size: 40px;
+	font-size: 30px;
 	/* opacity: 0.1; */
 
 }
@@ -87,7 +87,7 @@ h5 {
 .h5Titre1 {
 	color: rgb(255, 255, 255);
 	font-family: alliance;
-	font-size: 40px;
+	font-size: 20px;
 	/* opacity: 0.1; */
 	display: flex;
 	justify-content: flex-start;
@@ -98,7 +98,7 @@ h5 {
 	padding-top: 60px;
 	color: rgb(255, 255, 255);
 	font-family: alliance;
-	font-size: 40px;
+	font-size: 20px;
 	/* opacity: 0.1; */
 	display: flex;
 	justify-content: flex-start;
@@ -352,8 +352,8 @@ footer {
 	border-radius: 50%;
 	cursor:pointer;
 	box-shadow: inset 0 0 10px rgb(107, 248, 171), 0 0 25px rgb(167, 255, 189);
-	width:350px;
-	height:350px;
+	width:250px;
+	height:250px;
 	
 
 }
@@ -452,7 +452,7 @@ footer {
 	
 	
 	.nameTypo {
-		font-size: 20px;
+		font-size: 15px;
 		font-family: alliance;
 		letter-spacing: 5px;
 		color: rgb(255, 255, 255);
@@ -462,7 +462,7 @@ footer {
 	}
 	
 	.frontTypo {
-		font-size: 20px;
+		font-size: 15px;
 		font-family: alliance;
 		letter-spacing: 5px;
 		background-image: url(https://media.giphy.com/media/BHXw0yautal11VA69R/giphy.gif);
@@ -931,7 +931,7 @@ footer {
 	
 	
 	.nameTypo {
-		font-size: 45px;
+		font-size: 25px;
 		font-family: alliance;
 		letter-spacing: 15px;
 		color: rgb(255, 255, 255);
@@ -940,7 +940,7 @@ footer {
 	}
 	
 	.frontTypo {
-		font-size: 45px;
+		font-size: 35px;
 		font-family: alliance;
 		letter-spacing: 15px;
 		background-image: url(https://media.giphy.com/media/BHXw0yautal11VA69R/giphy.gif);
@@ -958,8 +958,8 @@ footer {
 		border-radius: 50%;
 		/* cursor:pointer; */
 		box-shadow: inset 0 0 10px rgb(107, 248, 171), 0 0 25px rgb(167, 255, 189);
-		width:300px;
-		height:300px;
+		width:250px;
+		height:250px;
 		
 	
 	}
@@ -1260,8 +1260,8 @@ footer {
 		border-radius: 50%;
 		cursor:pointer;
 		box-shadow: inset 0 0 10px rgb(107, 248, 171), 0 0 25px rgb(167, 255, 189);
-		width:350px;
-		height:350px;
+		width:250px;
+		height:250px;
 		
 	
 	}

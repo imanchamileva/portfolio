@@ -1,15 +1,13 @@
 import {useState} from 'react'
 import image from "../images/iman3.jpg"
-
 import Section1 from './Section1.js'
 import Section2 from './Section2'
 import Section3 from './Section3.js'
 import style from './section4.module.css'
-import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Footer from './Footer'
 import Section4 from './Section4'
-import Menuburger from './Menuburger'
+
 
 
 

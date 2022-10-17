@@ -12,18 +12,21 @@ function Section3() {
         <div id="projects" className="part3">
             <h3 className="titrePart3">Projects</h3>
 
-            <div class="divgeneraleprojets">
+            <div class="divgeneraleprojets1">
 
-                <a href="https://github.com/imanchamileva/allora" target="_blank"><div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image1} className="projet44" /> </div></a>
+                <a href="https://github.com/imanchamileva/allora" target="_blank"><div className="projet4"><img src={image1} className="projet44" /> </div></a>
 
-                <a href="https://jdld.interface3.be/" target="_blank"><div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image2} className="projet44" /></div></a>
+                <a href="https://jdld.interface3.be/" target="_blank"><div className="projet4"><img src={image2} className="projet44" /></div></a>
 
-                <a href="https://coffeewars.interface3.be/" target="_blank"><div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image3} className="projet44" /></div></a>
-
-                <a href="https://imanchamileva.github.io/project" target="_blank"><div className="projet4"><img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" src={image4} className="projet44" /></div></a>
-
-                <div id="emptyDiv"> <img data-aos="zoom-in-down" data-aos-duration="1000" data-aos-offset="500" /> </div>
             </div>
+
+            <div class="divgeneraleprojets2">
+                <a href="https://coffeewars.interface3.be/" target="_blank"><div className="projet4"><img src={image3} className="projet44" /></div></a>
+
+                <a href="https://imanchamileva.github.io/project" target="_blank"><div className="projet4"><img src={image4} className="projet44" /></div></a>
+
+            </div>
+
         </div>
     )
 }

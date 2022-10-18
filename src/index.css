@@ -1198,11 +1198,11 @@ footer {
 		width:100%;
 	}
 
-	.firstProject {
+	.firstProject1 {
 		position: relative;
 	}
 
-	.firstProjectText {
+	.firstProjectText1 {
 		color: white;
 		font-size: 20px;
 		position: absolute;
@@ -1214,11 +1214,11 @@ footer {
 		text-align: center;
 	}
 
-	.firstProject:hover .firstProjectTextOverlay {
+	.firstProject1:hover .firstProjectTextOverlay1 {
 		opacity: 0.9;
 	  }
 
-	  .firstProjectTextOverlay {
+	  .firstProjectTextOverlay1 {
 		border-radius: 25px;
 		position: absolute;
 		top: 0;

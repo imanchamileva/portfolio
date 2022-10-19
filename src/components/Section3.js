@@ -30,7 +30,7 @@ function Section3() {
                     <a href="https://jdld.interface3.be/" target="_blank">
                         <div className="firstProjectTextOverlay1">
                             <div className="firstProjectText1">
-                                TEAM PROJECT : HTML CSS JS PHP
+                                TEAM PROJECT MOVIE QUOTES: HTML CSS JS PHP
                             </div>
                         </div>
                     </a>
@@ -41,7 +41,7 @@ function Section3() {
                     <a href="https://coffeewars.interface3.be/" target="_blank">
                         <div className="firstProjectTextOverlay1">
                             <div className="firstProjectText1">
-                                HACKATHON :  HTML CSS JS PHP
+                                HACKATHON QUIZZ:  HTML CSS JS PHP
                             </div>
                         </div>
                     </a>
@@ -56,7 +56,7 @@ function Section3() {
                     <a href="https://imanchamileva.github.io/project" target="_blank">
                         <div className="firstProjectTextOverlay1">
                             <div className="firstProjectText1">
-                                REACT TAILWIND
+                                JOBSEARCH APP : REACT TAILWIND
                             </div>
                         </div>
                     </a>
@@ -66,7 +66,7 @@ function Section3() {
                     <a href="https://jdld.interface3.be/" target="_blank"><div className="projet4"><img src={image5} className="projet44" /></div></a>
                     <div className="firstProjectTextOverlay1">
                         <div className="firstProjectText1">
-                            REACT TYPESCRIPT TAILWIND
+                            TO DO APP : REACT TYPESCRIPT TAILWIND
                         </div>
                     </div>
                 </div>

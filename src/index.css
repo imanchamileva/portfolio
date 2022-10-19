@@ -961,8 +961,22 @@ footer {
 		opacity:0.5;
 	}
 	
+	.sentence1 {
+		color:#4F031F;
+		font-family: alliance;
+		font-size:30px;
+	}
 	
-	
+	.sentence2 {
+		color:white;
+		font-family: alliance;
+		font-size:30px;
+	}
+
+	.textsDiv {
+		padding-top:50px;
+	}
+
 	.imgIman22 {
 		border-radius: 50%;
 		/* cursor:pointer; */

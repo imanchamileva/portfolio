@@ -25,11 +25,11 @@ function Section1() {
                     <h2 className="frontTypo" data-aos="fade-left" data-aos-duration="2500"
                         data-aos-easing="ease-in-out" data-aos-delay="100">FRONT-END DEVELOPER</h2>
                     <div className="textsDiv">
-                        <h6 className="sentence1">I discovered web development almost 2 years ago. </h6>
-                        <h6 className="sentence1">I fell in love with coding as soon as I saw on my screen </h6>
-                        <h6 className="sentence1">the words "Hello, World !".</h6>
-                        <h6 className="sentence1">Since then, I have been improving my skills </h6>
-                        <h6 className="sentence1"> by coding new challenging projects.</h6>
+                        <h6 className="sentence1">I discovered web development almost 2 years ago. 
+                        I fell in love with coding as soon as I saw on my screen 
+                        the words "Hello, World !".
+                        Since then, I have been improving my skills 
+                        by coding new challenging projects.</h6>
                     </div>
 
                 </div>

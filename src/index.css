@@ -965,16 +965,20 @@ footer {
 		color:#4F031F;
 		font-family: alliance;
 		font-size:30px;
+		text-align: justify;
+		width:800px;
 	}
 	
 	.sentence2 {
 		color:white;
 		font-family: alliance;
 		font-size:30px;
+		text-align: justify;
 	}
 
 	.textsDiv {
 		padding-top:50px;
+		text-align: justify;
 	}
 
 	.imgIman22 {

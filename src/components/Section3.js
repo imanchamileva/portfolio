@@ -63,12 +63,14 @@ function Section3() {
                 </div>
 
                 <div className="firstProject1">
-                    <a href="https://jdld.interface3.be/" target="_blank"><div className="projet4"><img src={image5} className="projet44" /></div></a>
-                    <div className="firstProjectTextOverlay1">
-                        <div className="firstProjectText1">
-                            TO DO APP : REACT TYPESCRIPT TAILWIND
+                    <div className="projet4"><img src={image5} className="projet44" /></div>
+                    <a href="https://imanchamileva.github.io/todo_app_tsx" target="_blank">
+                        <div className="firstProjectTextOverlay1">
+                            <div className="firstProjectText1">
+                                TO DO APP : REACT TYPESCRIPT TAILWIND
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 

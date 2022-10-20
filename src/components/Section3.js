@@ -3,7 +3,7 @@ import image1 from "../images/projet1.png"
 import image2 from "../images/projet2.png"
 import image3 from "../images/projet3.png"
 import image4 from "../images/projet4.png"
-import image5 from "../images/projet5.png"
+import image5 from "../images/projet6.png"
 
 function Section3() {
     return (

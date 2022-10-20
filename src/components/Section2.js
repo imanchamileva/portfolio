@@ -1,4 +1,3 @@
-import { FaAdn } from "react-icons/fa";
 import { GrReactjs } from "react-icons/gr"; 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -13,8 +12,7 @@ import { SiBootstrap } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
-import Section1 from './Section1'
-import Menuburger from './Menuburger'
+
 
 
 function Section2() {

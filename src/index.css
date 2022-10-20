@@ -940,7 +940,7 @@ footer {
 	
 	
 	.nameTypo {
-		font-size: 25px;
+		font-size: 20px;
 		font-family: alliance;
 		letter-spacing: 15px;
 		color: rgb(255, 255, 255);
@@ -949,7 +949,7 @@ footer {
 	}
 	
 	.frontTypo {
-		font-size: 35px;
+		font-size: 25px;
 		font-family: alliance;
 		letter-spacing: 15px;
 		background-image: url(https://media.giphy.com/media/BHXw0yautal11VA69R/giphy.gif);
@@ -964,17 +964,11 @@ footer {
 	.sentence1 {
 		color:#4F031F;
 		font-family: alliance;
-		font-size:30px;
+		font-size:20px;
 		text-align: justify;
-		width:800px;
+		width:600px;
 	}
 	
-	.sentence2 {
-		color:white;
-		font-family: alliance;
-		font-size:30px;
-		text-align: justify;
-	}
 
 	.textsDiv {
 		padding-top:50px;
@@ -1014,7 +1008,7 @@ footer {
 	h5 {
 		color: rgb(255, 255, 255);
 		font-family: alliance;
-		font-size: 30px;
+		font-size: 20px;
 		/* opacity: 0.1; */
 	
 	}
@@ -1022,7 +1016,7 @@ footer {
 	.h5Titre1 {
 		color: rgb(255, 255, 255);
 		font-family: alliance;
-		font-size: 30px;
+		font-size: 20px;
 		/* opacity: 0.1; */
 		display: flex;
 		justify-content: flex-start;
@@ -1033,7 +1027,7 @@ footer {
 		padding-top: 60px;
 		color: rgb(255, 255, 255);
 		font-family: alliance;
-		font-size: 30px;
+		font-size: 20px;
 		/* opacity: 0.1; */
 		display: flex;
 		justify-content: flex-start;
